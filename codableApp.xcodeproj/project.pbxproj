@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		FF48464D22CB62A800F38271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48464C22CB62A800F38271 /* AppDelegate.swift */; };
-		FF48464F22CB62A800F38271 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48464E22CB62A800F38271 /* ViewController.swift */; };
+		FF48464F22CB62A800F38271 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48464E22CB62A800F38271 /* SearchViewController.swift */; };
 		FF48465222CB62A800F38271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF48465022CB62A800F38271 /* Main.storyboard */; };
 		FF48465422CB62AB00F38271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF48465322CB62AB00F38271 /* Assets.xcassets */; };
 		FF48465722CB62AB00F38271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF48465522CB62AB00F38271 /* LaunchScreen.storyboard */; };
 		FF48466222CB62AB00F38271 /* codableAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48466122CB62AB00F38271 /* codableAppTests.swift */; };
 		FF48466D22CB62AB00F38271 /* codableAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48466C22CB62AB00F38271 /* codableAppUITests.swift */; };
+		FF48467B22CB630500F38271 /* ItemMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48467A22CB630500F38271 /* ItemMetaData.swift */; };
+		FF48467D22CB664D00F38271 /* SearchResultsMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48467C22CB664D00F38271 /* SearchResultsMetaData.swift */; };
+		FF48467F22CB692100F38271 /* PaginationMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48467E22CB692100F38271 /* PaginationMetaData.swift */; };
+		FF48468122CB69B800F38271 /* MetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48468022CB69B800F38271 /* MetaData.swift */; };
+		FF48469722CC7C5800F38271 /* GiphyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48469622CC7C5800F38271 /* GiphyManager.swift */; };
+		FF6E30BF22CBD8A400B35EC3 /* GifCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E30BD22CBD8A400B35EC3 /* GifCollectionViewCell.swift */; };
+		FF6E30C022CBD8A400B35EC3 /* GifCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6E30BE22CBD8A400B35EC3 /* GifCollectionViewCell.xib */; };
+		FF720C0E22CC8B5700FCE969 /* GifDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF720C0D22CC8B5700FCE969 /* GifDownloadManager.swift */; };
+		FF720C1022CC8EB500FCE969 /* PGOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF720C0F22CC8EB500FCE969 /* PGOperation.swift */; };
+		FF720C1222CDDD0700FCE969 /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF720C1122CDDD0700FCE969 /* FullImageViewController.swift */; };
+		FFC70D3E22CD31DD00509C88 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC70D3D22CD31DD00509C88 /* MusicManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,7 @@
 /* Begin PBXFileReference section */
 		FF48464922CB62A800F38271 /* codableApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codableApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF48464C22CB62A800F38271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF48464E22CB62A800F38271 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF48464E22CB62A800F38271 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FF48465122CB62A800F38271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF48465322CB62AB00F38271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF48465622CB62AB00F38271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,17 @@
 		FF48466822CB62AB00F38271 /* codableAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codableAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF48466C22CB62AB00F38271 /* codableAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codableAppUITests.swift; sourceTree = "<group>"; };
 		FF48466E22CB62AB00F38271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF48467A22CB630500F38271 /* ItemMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMetaData.swift; sourceTree = "<group>"; };
+		FF48467C22CB664D00F38271 /* SearchResultsMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsMetaData.swift; sourceTree = "<group>"; };
+		FF48467E22CB692100F38271 /* PaginationMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationMetaData.swift; sourceTree = "<group>"; };
+		FF48468022CB69B800F38271 /* MetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaData.swift; sourceTree = "<group>"; };
+		FF48469622CC7C5800F38271 /* GiphyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyManager.swift; sourceTree = "<group>"; };
+		FF6E30BD22CBD8A400B35EC3 /* GifCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF6E30BE22CBD8A400B35EC3 /* GifCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GifCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF720C0D22CC8B5700FCE969 /* GifDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifDownloadManager.swift; sourceTree = "<group>"; };
+		FF720C0F22CC8EB500FCE969 /* PGOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGOperation.swift; sourceTree = "<group>"; };
+		FF720C1122CDDD0700FCE969 /* FullImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
+		FFC70D3D22CD31DD00509C88 /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,7 @@
 		FF48464022CB62A800F38271 = {
 			isa = PBXGroup;
 			children = (
+				FFC70D3F22CD394700509C88 /* Resorces */,
 				FF48464B22CB62A800F38271 /* codableApp */,
 				FF48466022CB62AB00F38271 /* codableAppTests */,
 				FF48466B22CB62AB00F38271 /* codableAppUITests */,
@@ -98,10 +121,14 @@
 			isa = PBXGroup;
 			children = (
 				FF48464C22CB62A800F38271 /* AppDelegate.swift */,
-				FF48464E22CB62A800F38271 /* ViewController.swift */,
+				FF720C0F22CC8EB500FCE969 /* PGOperation.swift */,
+				FFC70D3D22CD31DD00509C88 /* MusicManager.swift */,
+				FF48469522CC7C2000F38271 /* Giphy */,
+				FF6E30BB22CBD86B00B35EC3 /* UI */,
+				FF48468222CB6A7000F38271 /* Model */,
 				FF48465022CB62A800F38271 /* Main.storyboard */,
-				FF48465322CB62AB00F38271 /* Assets.xcassets */,
 				FF48465522CB62AB00F38271 /* LaunchScreen.storyboard */,
+				FF48465322CB62AB00F38271 /* Assets.xcassets */,
 				FF48465822CB62AB00F38271 /* Info.plist */,
 			);
 			path = codableApp;
@@ -123,6 +150,52 @@
 				FF48466E22CB62AB00F38271 /* Info.plist */,
 			);
 			path = codableAppUITests;
+			sourceTree = "<group>";
+		};
+		FF48468222CB6A7000F38271 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF48467C22CB664D00F38271 /* SearchResultsMetaData.swift */,
+				FF48467A22CB630500F38271 /* ItemMetaData.swift */,
+				FF48467E22CB692100F38271 /* PaginationMetaData.swift */,
+				FF48468022CB69B800F38271 /* MetaData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF48469522CC7C2000F38271 /* Giphy */ = {
+			isa = PBXGroup;
+			children = (
+				FF48469622CC7C5800F38271 /* GiphyManager.swift */,
+				FF720C0D22CC8B5700FCE969 /* GifDownloadManager.swift */,
+			);
+			path = Giphy;
+			sourceTree = "<group>";
+		};
+		FF6E30BB22CBD86B00B35EC3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FF48464E22CB62A800F38271 /* SearchViewController.swift */,
+				FF720C1122CDDD0700FCE969 /* FullImageViewController.swift */,
+				FF6E30BC22CBD87800B35EC3 /* Collection Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FF6E30BC22CBD87800B35EC3 /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF6E30BD22CBD8A400B35EC3 /* GifCollectionViewCell.swift */,
+				FF6E30BE22CBD8A400B35EC3 /* GifCollectionViewCell.xib */,
+			);
+			path = "Collection Cells";
+			sourceTree = "<group>";
+		};
+		FFC70D3F22CD394700509C88 /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resorces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +305,7 @@
 				FF48465722CB62AB00F38271 /* LaunchScreen.storyboard in Resources */,
 				FF48465422CB62AB00F38271 /* Assets.xcassets in Resources */,
 				FF48465222CB62A800F38271 /* Main.storyboard in Resources */,
+				FF6E30C022CBD8A400B35EC3 /* GifCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +330,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF48464F22CB62A800F38271 /* ViewController.swift in Sources */,
+				FF48464F22CB62A800F38271 /* SearchViewController.swift in Sources */,
+				FF48467B22CB630500F38271 /* ItemMetaData.swift in Sources */,
+				FF48468122CB69B800F38271 /* MetaData.swift in Sources */,
+				FF6E30BF22CBD8A400B35EC3 /* GifCollectionViewCell.swift in Sources */,
+				FFC70D3E22CD31DD00509C88 /* MusicManager.swift in Sources */,
+				FF720C1222CDDD0700FCE969 /* FullImageViewController.swift in Sources */,
+				FF720C0E22CC8B5700FCE969 /* GifDownloadManager.swift in Sources */,
 				FF48464D22CB62A800F38271 /* AppDelegate.swift in Sources */,
+				FF48467F22CB692100F38271 /* PaginationMetaData.swift in Sources */,
+				FF48467D22CB664D00F38271 /* SearchResultsMetaData.swift in Sources */,
+				FF720C1022CC8EB500FCE969 /* PGOperation.swift in Sources */,
+				FF48469722CC7C5800F38271 /* GiphyManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +517,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVGQ8N6ZFJ;
 				INFOPLIST_FILE = codableApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +536,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVGQ8N6ZFJ;
 				INFOPLIST_FILE = codableApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +557,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = codableAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,6 +578,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = codableAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,7 +597,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKH882PQFK;
 				INFOPLIST_FILE = codableAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,7 +618,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKH882PQFK;
 				INFOPLIST_FILE = codableAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
